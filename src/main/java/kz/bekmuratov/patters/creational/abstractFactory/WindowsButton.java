@@ -1,4 +1,4 @@
-package kz.bekmuratov.patters.patters.creational.abstractFactory;
+package kz.bekmuratov.patters.creational.abstractFactory;
 
 /**
  * Все семейства продуктов имеют одни и те же вариации (MacOS/Windows).

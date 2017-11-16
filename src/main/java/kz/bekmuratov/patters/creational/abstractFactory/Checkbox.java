@@ -1,4 +1,4 @@
-package kz.bekmuratov.patters.patters.creational.abstractFactory;
+package kz.bekmuratov.patters.creational.abstractFactory;
 
 /**
  * Чекбоксы — это второе семейство продуктов. Оно имеет те же вариации, что

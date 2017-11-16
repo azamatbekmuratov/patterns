@@ -1,4 +1,4 @@
-package kz.bekmuratov.patters.patters.creational.abstractFactory;
+package kz.bekmuratov.patters.creational.abstractFactory;
 
 /**
  * Демо-класс. Здесь всё сводится воедино.

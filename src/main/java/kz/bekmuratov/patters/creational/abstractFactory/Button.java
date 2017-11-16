@@ -1,4 +1,4 @@
-package kz.bekmuratov.patters.patters.creational.abstractFactory;
+package kz.bekmuratov.patters.creational.abstractFactory;
 
 /**
  * Паттерн предполагает, что у вас есть несколько семейств продуктов,

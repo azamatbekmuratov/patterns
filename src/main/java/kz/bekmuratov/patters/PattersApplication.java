@@ -1,4 +1,4 @@
-package kz.bekmuratov.patters.patters;
+package kz.bekmuratov.patters;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package kz.bekmuratov.patters.patters.creational.factory;
+package kz.bekmuratov.patters.creational.factory;
 
 /**
  * Общий интерфейс для всех продуктов.
