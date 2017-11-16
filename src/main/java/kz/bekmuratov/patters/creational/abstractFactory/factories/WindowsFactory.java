@@ -1,4 +1,9 @@
-package kz.bekmuratov.patters.creational.abstractFactory;
+package kz.bekmuratov.patters.creational.abstractFactory.factories;
+
+import kz.bekmuratov.patters.creational.abstractFactory.buttons.Button;
+import kz.bekmuratov.patters.creational.abstractFactory.buttons.WindowsButton;
+import kz.bekmuratov.patters.creational.abstractFactory.checkboxes.Checkbox;
+import kz.bekmuratov.patters.creational.abstractFactory.checkboxes.WindowsCheckbox;
 
 /**
  * Каждая конкретная фабрика знает и создаёт только продукты своей вариации.

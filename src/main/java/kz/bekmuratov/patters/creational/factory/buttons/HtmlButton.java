@@ -1,4 +1,4 @@
-package kz.bekmuratov.patters.creational.factory;
+package kz.bekmuratov.patters.creational.factory.buttons;
 
 public class HtmlButton implements Button {
 

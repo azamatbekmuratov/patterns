@@ -1,4 +1,7 @@
-package kz.bekmuratov.patters.creational.abstractFactory;
+package kz.bekmuratov.patters.creational.abstractFactory.factories;
+
+import kz.bekmuratov.patters.creational.abstractFactory.buttons.Button;
+import kz.bekmuratov.patters.creational.abstractFactory.checkboxes.Checkbox;
 
 /**
  * Абстрактная фабрика знает обо всех (абстрактных) типах продуктов.

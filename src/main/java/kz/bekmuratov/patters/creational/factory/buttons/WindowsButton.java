@@ -1,11 +1,11 @@
-package kz.bekmuratov.patters.creational.factory;
+package kz.bekmuratov.patters.creational.factory.buttons;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class WindowsButton implements Button {
+public class WindowsButton implements kz.bekmuratov.patters.creational.factory.buttons.Button {
 
     JPanel panel = new JPanel();
     JFrame frame = new JFrame();

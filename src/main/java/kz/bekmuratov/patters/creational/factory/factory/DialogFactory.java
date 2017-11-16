@@ -1,4 +1,6 @@
-package kz.bekmuratov.patters.creational.factory;
+package kz.bekmuratov.patters.creational.factory.factory;
+
+import kz.bekmuratov.patters.creational.factory.buttons.Button;
 
 /**
  * Базовый класс фабрики. Заметьте, что "фабрика" – это всего лишь

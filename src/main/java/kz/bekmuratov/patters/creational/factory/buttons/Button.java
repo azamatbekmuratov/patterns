@@ -1,4 +1,4 @@
-package kz.bekmuratov.patters.creational.factory;
+package kz.bekmuratov.patters.creational.factory.buttons;
 
 /**
  * Общий интерфейс для всех продуктов.

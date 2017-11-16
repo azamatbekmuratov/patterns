@@ -1,5 +1,9 @@
 package kz.bekmuratov.patters.creational.abstractFactory;
 
+import kz.bekmuratov.patters.creational.abstractFactory.factories.GUIFactory;
+import kz.bekmuratov.patters.creational.abstractFactory.factories.MacOSFactory;
+import kz.bekmuratov.patters.creational.abstractFactory.factories.WindowsFactory;
+
 /**
  * Демо-класс. Здесь всё сводится воедино.
  */

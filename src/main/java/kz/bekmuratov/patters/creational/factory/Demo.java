@@ -1,5 +1,9 @@
 package kz.bekmuratov.patters.creational.factory;
 
+import kz.bekmuratov.patters.creational.factory.factory.DialogFactory;
+import kz.bekmuratov.patters.creational.factory.factory.HtmlDialog;
+import kz.bekmuratov.patters.creational.factory.factory.WindowsDialog;
+
 public class Demo {
     private static DialogFactory dialog;
 
