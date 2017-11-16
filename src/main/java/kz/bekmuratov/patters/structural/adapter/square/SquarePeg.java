@@ -1,4 +1,4 @@
-package kz.bekmuratov.patters.structural.square;
+package kz.bekmuratov.patters.structural.adapter.square;
 
 /**
  * КвадратныеКолышки несовместимы с КруглымиОтверстиями (они остались в проекте

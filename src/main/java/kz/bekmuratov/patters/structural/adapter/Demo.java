@@ -1,9 +1,9 @@
-package kz.bekmuratov.patters.structural;
+package kz.bekmuratov.patters.structural.adapter;
 
-import kz.bekmuratov.patters.structural.adapters.SquarePegAdapter;
-import kz.bekmuratov.patters.structural.round.RoundHole;
-import kz.bekmuratov.patters.structural.round.RoundPeg;
-import kz.bekmuratov.patters.structural.square.SquarePeg;
+import kz.bekmuratov.patters.structural.adapter.adapters.SquarePegAdapter;
+import kz.bekmuratov.patters.structural.adapter.round.RoundHole;
+import kz.bekmuratov.patters.structural.adapter.round.RoundPeg;
+import kz.bekmuratov.patters.structural.adapter.square.SquarePeg;
 
 public class Demo {
     public static void main(String[] args) {

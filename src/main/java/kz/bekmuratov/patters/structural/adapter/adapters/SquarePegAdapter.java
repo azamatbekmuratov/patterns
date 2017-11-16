@@ -1,7 +1,7 @@
-package kz.bekmuratov.patters.structural.adapters;
+package kz.bekmuratov.patters.structural.adapter.adapters;
 
-import kz.bekmuratov.patters.structural.round.RoundPeg;
-import kz.bekmuratov.patters.structural.square.SquarePeg;
+import kz.bekmuratov.patters.structural.adapter.round.RoundPeg;
+import kz.bekmuratov.patters.structural.adapter.square.SquarePeg;
 
 /**
  * Адаптер позволяет использовать КвадратныеКолышки и КруглыеОтверстия вместе.

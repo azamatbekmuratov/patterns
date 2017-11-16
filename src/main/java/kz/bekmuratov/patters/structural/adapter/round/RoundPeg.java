@@ -1,4 +1,4 @@
-package kz.bekmuratov.patters.structural.round;
+package kz.bekmuratov.patters.structural.adapter.round;
 
 /**
  * КруглыеКолышки совместимы с КруглымиОтверстиями.
