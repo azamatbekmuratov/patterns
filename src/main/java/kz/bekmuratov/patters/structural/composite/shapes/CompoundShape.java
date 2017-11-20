@@ -1,7 +1,5 @@
 package kz.bekmuratov.patters.structural.composite.shapes;
 
-import sun.security.provider.SHA;
-
 import java.awt.*;
 import java.util.ArrayList;
 import java.util.Arrays;
