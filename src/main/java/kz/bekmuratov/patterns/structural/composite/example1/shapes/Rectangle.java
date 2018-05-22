@@ -1,4 +1,4 @@
-package kz.bekmuratov.patterns.structural.composite.shapes;
+package kz.bekmuratov.patterns.structural.composite.example1.shapes;
 
 import java.awt.*;
 

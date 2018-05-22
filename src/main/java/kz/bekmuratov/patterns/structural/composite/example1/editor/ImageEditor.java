@@ -1,6 +1,6 @@
-package kz.bekmuratov.patterns.structural.composite.editor;
+package kz.bekmuratov.patterns.structural.composite.example1.editor;
 
-import kz.bekmuratov.patterns.structural.composite.shapes.*;
+import kz.bekmuratov.patterns.structural.composite.example1.shapes.*;
 
 import javax.swing.*;
 import javax.swing.border.Border;
@@ -16,7 +16,7 @@ public class ImageEditor {
         canvas = new EditorCanvas();
     }
 
-    public void loadShapes(kz.bekmuratov.patterns.structural.composite.shapes.Shape... shapes){
+    public void loadShapes(kz.bekmuratov.patterns.structural.composite.example1.shapes.Shape... shapes){
         allShapes.clear();
         allShapes.add(shapes);
         canvas.refresh();

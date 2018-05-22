@@ -1,10 +1,10 @@
-package kz.bekmuratov.patterns.structural.composite;
+package kz.bekmuratov.patterns.structural.composite.example1;
 
-import kz.bekmuratov.patterns.structural.composite.editor.ImageEditor;
-import kz.bekmuratov.patterns.structural.composite.shapes.Circle;
-import kz.bekmuratov.patterns.structural.composite.shapes.CompoundShape;
-import kz.bekmuratov.patterns.structural.composite.shapes.Dot;
-import kz.bekmuratov.patterns.structural.composite.shapes.Rectangle;
+import kz.bekmuratov.patterns.structural.composite.example1.editor.ImageEditor;
+import kz.bekmuratov.patterns.structural.composite.example1.shapes.Circle;
+import kz.bekmuratov.patterns.structural.composite.example1.shapes.CompoundShape;
+import kz.bekmuratov.patterns.structural.composite.example1.shapes.Dot;
+import kz.bekmuratov.patterns.structural.composite.example1.shapes.Rectangle;
 
 import java.awt.*;
 
