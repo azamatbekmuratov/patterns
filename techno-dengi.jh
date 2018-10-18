@@ -1,0 +1,128 @@
+entity Shop {
+	code String
+    state String
+    nameKk String required
+    nameRu String required
+    nameEn String required
+    createdBy Integer
+    createdDate LocalDate
+    updatedBy Integer
+    updatedDate LocalDate
+}
+
+entity DeliveryType {
+	code String
+    nameKk String required
+    nameRu String required
+    nameEn String required
+    state String
+    createdBy Integer
+    createdDate LocalDate
+    updatedBy Integer
+    updatedDate LocalDate
+}
+
+entity Country {
+	code String
+    nameKk String required
+    nameRu String required
+    nameEn String required
+    state String
+    createdBy Integer
+    createdDate LocalDate
+    updatedBy Integer
+    updatedDate LocalDate
+}
+
+entity Education {
+	code String
+    nameKk String required
+    nameRu String required
+    nameEn String required
+    state String
+    createdBy Integer
+    createdDate LocalDate
+    updatedBy Integer
+    updatedDate LocalDate
+}
+
+entity MaritalStatus {
+	code String
+    state String
+    createdBy Integer
+    createdDate LocalDate
+    updatedBy Integer
+    updatedDate LocalDate
+}
+
+enum Gender {
+	MALE, FEMALE
+}
+
+entity Customer {
+	taxCode String required
+    lastName String required
+    firstName String required
+    middleName String
+    email String
+    sex Gender required
+    birthDate LocalDate required
+    birthPlace Country
+    citizenship Country
+    maritalStatus MaritalStatus required
+    education Education required
+    mobilePhone String required
+    homePhone String required
+}
+
+entity Contact {
+	customer Customer required
+    contactRelation ContactRelation required
+    firstName String required
+    lastName String required
+    middleName String
+    mobilePhone String required
+    homePhone String
+}
+
+entity ContactRelation {
+	//Степень родства
+    code String
+    state String
+    nameKk String required
+    nameRu String required
+    nameEn String required
+    createdBy Integer
+    createdDate LocalDate
+    updatedBy Integer
+    updatedDate LocalDate
+}
+
+relationship OneToMany {
+	MaritalStatus{customer} to Customer
+    Education{customer} to Customer
+    ContactRelation{contact} to Contact
+    Customer{contact} to Contact
+    Country{customer} to Customer
+}
+
+relationship ManyToOne {
+	Customer{maritalStatus} to MaritalStatus
+    Customer{education} to Education
+    Contact{contactRelation} to ContactRelation
+    Contact{customer} to Customer
+    Customer{birthPlace} to Country
+    Customer{citizenship} to Country
+}
+
+// Set pagination options
+paginate Shop, DeliveryType, Country, Education, Customer, MaritalStatus, Contact, ContactRelation with pagination
+
+// Use Data Transfert Objects (DTO)
+// dto * with mapstruct
+
+// Set service options to all except few
+service all with serviceImpl 
+
+
+
